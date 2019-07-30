@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/brucemakallan/teenscaps-api.svg?branch=develop)](https://travis-ci.org/brucemakallan/teenscaps-api)
+
 # TeensCaps API
 
 #### LIFE Ministries Uganda.
