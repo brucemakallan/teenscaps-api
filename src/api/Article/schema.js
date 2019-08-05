@@ -25,5 +25,6 @@ module.exports = {
 	tags: { type: [Object] },
 	parent: { ...trimmedString },
 	category: { ...requiredString },
-	dateCreated: {type: String, default: Date.now},
+	dateCreated: { type: String, default: Date.now },
+	pinned: { type: Boolean, default: false },
 };

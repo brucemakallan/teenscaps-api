@@ -20,6 +20,7 @@ const joiSchema = Joi.object().keys({
 	parent: basicString(),
 	category: requiredJoiString(),
 	dateCreated: basicString(),
+	pinned: Joi.boolean(),
 });
 
 const isValid = (req, res) => {
